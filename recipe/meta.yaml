@@ -1,5 +1,5 @@
 {% set name = "oop-ext" %}
-{% set version = "0.4.0" %}
+{% set version = "0.5.0" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2d645860b7f7f417f9c645f936c6b6beecf5b1939e1f80694b26959ef906ec92
+  sha256: 61f392e32de21a4274fed7910fc416c6f7a1f27f7b427ec2dae78b5f4aa9593d
 
 build:
   noarch: python
@@ -44,6 +44,7 @@ about:
 
 extra:
   recipe-maintainers:
+    - gcardozo123
     - lincrosenbach
     - kfasolin
     - nicoddemus
