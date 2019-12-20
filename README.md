@@ -119,4 +119,5 @@ Feedstock Maintainers
 * [@kfasolin](https://github.com/kfasolin/)
 * [@lincrosenbach](https://github.com/lincrosenbach/)
 * [@nicoddemus](https://github.com/nicoddemus/)
+* [@gcardozo123](https://github.com/gcardozo123/)
 
