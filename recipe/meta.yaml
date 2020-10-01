@@ -1,24 +1,24 @@
 {% set name = "oop-ext" %}
-{% set version = "0.6.0" %}
+{% set version = "1.0.0" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f07d5cab5c40999c8a7f15a00de4e8f508173abc74b442c230870cd449d36130
+  sha256: ad9126d995f19ec2272e18dae8452a174d916f3e61c76b799a915ee01cfd9203
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
     - pip
     - python >=3.6
-    - setuptools_scm    
+    - setuptools_scm
   run:
     - python >=3.6
 
