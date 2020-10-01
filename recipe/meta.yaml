@@ -20,6 +20,7 @@ requirements:
     - python >=3.6
     - setuptools_scm
   run:
+    - attrs
     - python >=3.6
 
 test:
