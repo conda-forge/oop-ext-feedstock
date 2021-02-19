@@ -29,6 +29,7 @@ test:
     - oop_ext.foundation
     - oop_ext.interface
   requires:
+    - mypy
     - pytest
     - pytest-mock
   commands:
