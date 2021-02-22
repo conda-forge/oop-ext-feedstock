@@ -5,11 +5,13 @@ Home: https://github.com/ESSS/oop-ext
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/oop-ext-feedstock/blob/master/LICENSE.txt)
 
 Summary: OOP Extensions is a set of utilities for object oriented programming which is missing on Python core libraries.
 
+Development: https://github.com/ESSS/oop-ext
 
+Documentation: https://oop-ext.readthedocs.io/
 
 Current build status
 ====================
