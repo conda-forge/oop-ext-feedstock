@@ -1,5 +1,5 @@
 {% set name = "oop-ext" %}
-{% set version = "1.2.0" %}
+{% set version = "2.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b37797f39a7d2ea882dfce46eecda7e16d8ad0564317620799b920b80690e511
+  sha256: 8a06ffd1f193f8c05b100316f06ff7a50fd61e2237d82c7fef137bc4d4a765d6
 
 build:
   noarch: python
