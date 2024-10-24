@@ -17,11 +17,12 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.10
+    - setuptools
     - setuptools_scm
   run:
     - attrs
-    - python >=3.6
+    - python >=3.10
 
 test:
   imports:
