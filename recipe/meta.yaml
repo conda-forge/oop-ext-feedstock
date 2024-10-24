@@ -1,13 +1,13 @@
 {% set name = "oop-ext" %}
-{% set version = "2.1.0" %}
+{% set version = "2.2.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9150af0aca05ed2feba15af78b84c46a3598d158ddc2a7ed3a89c1506ef34142
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 266f5bdcb8ad9f44e3395826f60540c2e7da7710b9f0d6d721037869d1daa992
 
 build:
   noarch: python
@@ -17,11 +17,12 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.10
+    - setuptools
     - setuptools_scm
   run:
     - attrs
-    - python >=3.6
+    - python >=3.10
 
 test:
   imports:
