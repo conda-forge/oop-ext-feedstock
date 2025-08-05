@@ -1,6 +1,6 @@
 {% set python_min = "3.10" %}
 {% set name = "oop-ext" %}
-{% set version = "2.3.1" %}
+{% set version = "2.3.2" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: c073f1ef652c29d7e1d6f372144b1b31a49a268dddc42a24f185f241521bb10e
+  sha256: cb4ab3b391b0667c6419ec3988af73296ccf8c0e6642c773128d62a322792d4f
 
 build:
   noarch: python
