@@ -152,6 +152,3 @@ Feedstock Maintainers
 * [@lincrosenbach](https://github.com/lincrosenbach/)
 * [@nicoddemus](https://github.com/nicoddemus/)
 
-
-<!-- dummy commit to enable rerendering -->
-
